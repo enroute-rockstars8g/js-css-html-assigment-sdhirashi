@@ -1,0 +1,220 @@
+
+body {
+
+    /*Colors*/
+    color:aliceblue;
+    background-color: #cccccc;
+
+    /*Images*/
+    background-image: url("../assets/background.png");
+
+    /*Display*/
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "a a a"
+    "b b b"
+    "c c c"
+    "d e f"
+    "g h h"
+    "i j j";
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headertext{
+
+    /*Display*/
+    grid-area: a;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+    
+}
+
+.titletext{
+
+    /*Display*/
+    grid-area: b;
+    text-align: center;
+    margin-top: 8%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+
+}
+
+.descriptiontext{
+
+    /*Display*/
+    background-color: hsla(0, 0%, 13%, 0.171);
+    grid-area: c;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10%;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 2%;
+
+}
+
+.pointer1{
+
+    /*Display*/
+    text-align: right;
+    font-family: 'Rock Salt', cursive;
+    grid-area:g;
+
+}
+
+.pointer2{
+
+    /*Display*/
+    text-align: right;
+    font-family: 'Rock Salt', cursive;
+    grid-area:i;
+
+}
+
+.portrait { 
+
+     /*Display*/
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    grid-area: e;
+    margin-top: 12%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12%;
+} 
+
+.portrait img { 
+
+     /*Display*/
+    width: 100%; 
+    height: auto; 
+    text-align: center;
+}
+
+.portraitdog { 
+
+    /*Display*/
+   position: relative; 
+   width: 150px; 
+   height: 150px; 
+   overflow: hidden; 
+   border-radius: 60%; 
+   grid-area: d;
+   margin-top: 7%;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 12%;
+
+} 
+
+.portraitdog img { 
+
+    /*Display*/
+   width: 100%; 
+   height: auto;
+   text-align: center; 
+}
+
+.portraitcat { 
+
+    /*Display*/
+   position: relative; 
+   width: 150px; 
+   height: 150px; 
+   overflow: hidden; 
+   border-radius: 60%; 
+   grid-area: f;
+   margin-top: 7%;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 12%;
+} 
+
+.portraitcat img { 
+
+    /*Display*/
+   width: 100%; 
+   height: auto;
+   text-align: center; 
+}
+
+.fibonacci{
+
+    /*Display*/
+    grid-area: h;
+    text-align: center;
+
+}
+
+.factorial{
+
+    /*Display*/
+    grid-area: j;
+    text-align: center;
+    margin-top: 7%;
+
+}
+
+button {
+
+     /*Color*/ 
+    /*Display*/
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #21f3d7;
+    background-color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+button:hover {
+
+    /*Color*/ 
+    color: #257984;
+    background: #00ffc8;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+   
+    /*Display*/
+    transition-delay: 0s;
+}
+
+input[type="text"]
+{
+    /*Fonts*/
+    font-size:15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
